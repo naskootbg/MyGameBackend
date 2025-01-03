@@ -1,0 +1,32 @@
+services:
+  mygame:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    volumes:
+      - .:/src  # Mount the entire app directory
+      - /src/bin  # Exclude bin and obj to avoid rebuild conflicts
+      - /src/obj
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1  # Enable polling for file changes
+      - DOTNET_WATCH_RESTART_ON_CHANGE=true
+      - DOTNET_ENVIRONMENT=Development  # Use development mode
+    command: ["dotnet", "watch", "run", "--urls", "http://0.0.0.0:8080"]
+    depends_on:
+      - docker_sqlserver
+
+  docker_sqlserver:
+    container_name: docker_sqlserver
+    build:
+      context: .
+      dockerfile: db.Dockerfile
+    ports:
+      - "1433:1433"
+    volumes:
+      - data:/var/opt/mssql
+volumes:
+  data: 
+    name: sql-data
