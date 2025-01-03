@@ -184,3 +184,4 @@ D:\repos\MyGame\MyGame\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\repos\MyGame\MyGame\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\repos\MyGame\MyGame\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\repos\MyGame\MyGame\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\repos\MyGame\MyGame\obj\Debug\net8.0\MyGame.sourcelink.json

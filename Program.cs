@@ -23,6 +23,16 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 })
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.WithOrigins("https://gamebackendnaskootbg.azurewebsites.net",
+                                              "http://localhost");
+                      });
+});
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<ICharacterService, CharacterService>();
 builder.Services.AddTransient<ICreatureService, CreatureService>();
