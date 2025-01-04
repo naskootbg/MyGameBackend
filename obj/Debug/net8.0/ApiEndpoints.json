@@ -1,8 +1,24 @@
 [
   {
-    "ContainingType": "MyGame.Controllers.CreatureController",
+    "ContainingType": "MyGame.Controllers.CharactersController",
+    "Method": "AddChar",
+    "RelativePath": "api/Characters/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "character",
+        "Type": "MyGame.Models.CharacterViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyGame.Controllers.CharactersController",
     "Method": "All",
-    "RelativePath": "api/Creature/all",
+    "RelativePath": "api/Characters/all",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,9 +26,30 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MyGame.Controllers.CharactersController",
+    "Method": "EditChar",
+    "RelativePath": "api/Characters/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "character",
+        "Type": "MyGame.Models.CharacterViewModel",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MyGame.Controllers.CreatureController",
-    "Method": "AllCreatures",
-    "RelativePath": "api/Creature/enemies",
+    "Method": "All",
+    "RelativePath": "api/Creature/all",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -111,6 +148,22 @@
         "MediaTypes": [
           "application/json"
         ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
+    "RelativePath": "logout",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]

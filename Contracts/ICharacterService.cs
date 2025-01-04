@@ -5,7 +5,7 @@ namespace MyGame.Contracts
 {
     public interface ICharacterService
     {
-        Task<IList<Character>> All();
+        Task<IList<CharacterViewModel>> All();
         Task<IList<SpecialSkill>> GetSkills(int charId);
 
         Task<int> AddChar(CharacterViewModel character);

@@ -1,0 +1,6 @@
+	"DefaultConnection": "Server=naskogamesqlserver; Database=mygamedb; User Id=naskootbg; Password=myPassword1!; TrustServerCertificate=True;MultipleActiveResultSets=True"
+
+
+
+
+    "DefaultConnection": "Server=DESKTOP-G1J19HC;Database=MyGame;Integrated Security=True;Encrypt=false;TrustServerCertificate=false"

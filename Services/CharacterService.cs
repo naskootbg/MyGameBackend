@@ -34,12 +34,25 @@ namespace MyGame.Services
             return entity.Id;
         }
 
-        public async Task<IList<Character>> All()
+        public async Task<IList<CharacterViewModel>> All()
         {
-            var entity = await context.Characters
-                .Include(s => s.SpecialSkills)
+            return await context.Characters
+                .Select(c => new CharacterViewModel
+                {
+                    Image = c.Image,
+                    Id = c.Id,
+                    About = c.About,
+                    Armor = c.Armor,
+                    Attack = c.Attack,
+                    Health = c.Health,
+                    Name = c.Name,
+                    SpecialSkills = c.SpecialSkills
+
+
+                })
                 .ToListAsync();
-            return entity;
+
+            
         }
 
         public async Task<CharacterViewModel> EditChar(int id, CharacterViewModel? character)
