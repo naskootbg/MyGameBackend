@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\repos\\MyGame\\MyGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|d:\\repos\\mygame\\mygame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|d:\\repos\\mygame\\mygame\\services\\characterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|solutionrelative:services\\characterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|d:\\repos\\mygame\\mygame\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|solutionrelative:controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|d:\\repos\\mygame\\mygame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|d:\\repos\\mygame\\mygame\\controllers\\creaturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CharacterService.cs",
               "DocumentMoniker": "D:\\repos\\MyGame\\MyGame\\Services\\CharacterService.cs",
               "RelativeDocumentMoniker": "Services\\CharacterService.cs",
               "ToolTip": "D:\\repos\\MyGame\\MyGame\\Services\\CharacterService.cs",
               "RelativeToolTip": "Services\\CharacterService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAQwCYAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwCkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T13:23:20.343Z",
               "IsPinned": true,
@@ -60,26 +60,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\repos\\MyGame\\MyGame\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\repos\\MyGame\\MyGame\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAABtAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T15:48:07.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CharactersController.cs",
               "DocumentMoniker": "D:\\repos\\MyGame\\MyGame\\Controllers\\CharactersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CharactersController.cs",
               "ToolTip": "D:\\repos\\MyGame\\MyGame\\Controllers\\CharactersController.cs",
               "RelativeToolTip": "Controllers\\CharactersController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwDQAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwDcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T14:17:18.47Z",
               "EditorCaption": ""
@@ -94,8 +94,7 @@
               "RelativeToolTip": "Controllers\\CreatureController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T14:15:51.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T14:15:51.267Z"
             },
             {
               "$type": "Document",
@@ -107,8 +106,7 @@
               "RelativeToolTip": "Data\\Models\\SpecialSkill.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T13:35:32.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T13:35:32.948Z"
             },
             {
               "$type": "Document",
@@ -120,8 +118,7 @@
               "RelativeToolTip": "Data\\Models\\Character.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T13:33:00.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T13:33:00.915Z"
             },
             {
               "$type": "Document",
@@ -133,8 +130,7 @@
               "RelativeToolTip": "Services\\CreatureService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T13:22:50.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T13:22:50.344Z"
             },
             {
               "$type": "Document",
@@ -146,8 +142,7 @@
               "RelativeToolTip": "Contracts\\ICreatureService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T13:22:12.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T13:22:12.117Z"
             }
           ]
         }

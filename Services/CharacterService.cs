@@ -36,7 +36,10 @@ namespace MyGame.Services
 
         public async Task<IList<Character>> All()
         {
-            return await context.Characters.ToListAsync();
+            var entity = await context.Characters
+                .Include(s => s.SpecialSkills)
+                .ToListAsync();
+            return entity;
         }
 
         public async Task<CharacterViewModel> EditChar(int id, CharacterViewModel? character)
