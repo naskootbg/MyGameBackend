@@ -22,12 +22,7 @@ namespace MyGame.Services
             return await context.Creatures.ToListAsync();
         }
 
-        public IQueryable<Creature> AllCreatures()
-        {
-            var model =  context.Creatures.AsQueryable();
-            return model;
-            
-        }
+         
 
         public async Task<Creature> RandomCrature()
         {

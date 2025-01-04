@@ -18,17 +18,7 @@ namespace MyGame.Controllers
             creatureService = _creatureService;
         }
 
-        [Route("enemies")]
-        [HttpGet]
-        public JsonResult AllCreatures()
-
-        {
-
-            var jsonData = creatureService.AllCreatures().Where(t => t.Id > 0).ToArray();
-
-
-            return new JsonResult(jsonData);
-        }
+        
 
         [Route("all")]
         [HttpGet]

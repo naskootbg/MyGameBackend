@@ -1,12 +1,16 @@
 ﻿using MyGame.Data.Models;
+using MyGame.Models;
 
 namespace MyGame.Contracts
 {
     public interface ICharacterService
     {
-        IQueryable<Character> AllCharacters();
-        IQueryable<SpecialSkill> GetSkills(int charId);
+        Task<IList<Character>> All();
+        Task<IList<SpecialSkill>> GetSkills(int charId);
 
+        Task<int> AddChar(CharacterViewModel character);
+
+        Task<CharacterViewModel> EditChar(int id, CharacterViewModel character);
 
     }
 }

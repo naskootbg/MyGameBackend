@@ -34,7 +34,7 @@ var app = builder.Build();
 app.MapIdentityApi<IdentityUser>();
 app.UseCors(builder =>
         builder
-        .WithOrigins("http://localhost","http://localhost:5173")
+        .WithOrigins("http://localhost","http://localhost:5173", "https://frontend-game-project.onrender.com/")
         .AllowAnyMethod()
         .AllowAnyHeader());
 app.UseSwagger();
