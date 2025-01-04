@@ -53,4 +53,4 @@ jobs:
           app-name: 'gamebackendnaskootbg'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A13CFBA2E2524B7FB8DABF5D333BE0CF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
