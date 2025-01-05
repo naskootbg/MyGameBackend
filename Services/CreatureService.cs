@@ -17,9 +17,20 @@ namespace MyGame.Services
              
         }
 
-        public async Task<IList<Creature>> All()
+        public async Task<IList<Creature>> All(int limit, int start)
         {
-            return await context.Creatures.ToListAsync();
+            if (limit == 0)
+            {
+                return await context.Creatures.Where(ch => ch.Id >= start)
+                .ToListAsync();
+
+            }
+            else
+            {
+                return await context.Creatures.Where(ch => ch.Id >= start)
+                .Take(limit).ToListAsync();
+            }
+            
         }
 
          

@@ -47,13 +47,40 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MyGame.Controllers.CharactersController",
+    "Method": "Player",
+    "RelativePath": "api/Characters/player",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MyGame.Controllers.CreatureController",
     "Method": "All",
     "RelativePath": "api/Creature/all",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "start",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {

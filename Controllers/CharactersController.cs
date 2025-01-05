@@ -20,7 +20,16 @@ namespace MyGame.Controllers
             service = _service;
         }
 
-
+        [Route("player")]
+        [HttpGet]
+        public async Task<IActionResult> Player(int id)
+        {
+            var serializerSettings = new JsonSerializerSettings();
+            serializerSettings.ContractResolver = new
+            CamelCasePropertyNamesContractResolver();
+            var result = await service.Player(id);
+            return Ok(JsonConvert.SerializeObject(result, serializerSettings));
+        }
 
         [Route("all")]
         [HttpGet]
@@ -43,6 +52,7 @@ namespace MyGame.Controllers
             var result = await service.AddChar(character);
             return Ok(JsonConvert.SerializeObject(result, serializerSettings));
         }
+
         [Route("edit")]
         [HttpPost]
         [Authorize]
