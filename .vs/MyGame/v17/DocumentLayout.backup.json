@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\repos\\MyGame\\MyGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|d:\\repos\\mygame\\mygame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|d:\\repos\\mygame\\mygame\\services\\creatureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E43C435B-95B8-49BB-92FD-F87FD34003EA}|MyGame.csproj|solutionrelative:services\\creatureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repos\\MyGame\\MyGame\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\repos\\MyGame\\MyGame\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAjwCIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T07:29:25.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CreatureController.cs",
               "DocumentMoniker": "D:\\repos\\MyGame\\MyGame\\Controllers\\CreatureController.cs",
               "RelativeDocumentMoniker": "Controllers\\CreatureController.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "Controllers\\CreatureController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T11:12:59.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T11:12:59.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CreatureService.cs",
               "DocumentMoniker": "D:\\repos\\MyGame\\MyGame\\Services\\CreatureService.cs",
               "RelativeDocumentMoniker": "Services\\CreatureService.cs",
@@ -64,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ICreatureService.cs",
               "DocumentMoniker": "D:\\repos\\MyGame\\MyGame\\Contracts\\ICreatureService.cs",
               "RelativeDocumentMoniker": "Contracts\\ICreatureService.cs",
@@ -72,12 +88,11 @@
               "RelativeToolTip": "Contracts\\ICreatureService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T11:11:21.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T11:11:21.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CharactersController.cs",
               "DocumentMoniker": "D:\\repos\\MyGame\\MyGame\\Controllers\\CharactersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CharactersController.cs",
@@ -85,12 +100,11 @@
               "RelativeToolTip": "Controllers\\CharactersController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwCgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T22:09:08.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T22:09:08.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CharacterService.cs",
               "DocumentMoniker": "D:\\repos\\MyGame\\MyGame\\Services\\CharacterService.cs",
               "RelativeDocumentMoniker": "Services\\CharacterService.cs",
@@ -98,12 +112,11 @@
               "RelativeToolTip": "Services\\CharacterService.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T22:05:44.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T22:05:44.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ICharacterService.cs",
               "DocumentMoniker": "D:\\repos\\MyGame\\MyGame\\Contracts\\ICharacterService.cs",
               "RelativeDocumentMoniker": "Contracts\\ICharacterService.cs",
@@ -111,8 +124,7 @@
               "RelativeToolTip": "Contracts\\ICharacterService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T22:04:41.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T22:04:41.404Z"
             }
           ]
         }

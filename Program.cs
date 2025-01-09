@@ -11,8 +11,9 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+builder.Services.AddAuthorization();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+builder.Services.AddIdentityApiEndpoints<IdentityUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
     options.Password.RequireDigit = false;
@@ -63,6 +64,6 @@ app.MapPost("/logout", async (SignInManager<IdentityUser> signInManager) =>
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapRazorPages();
+//app.MapRazorPages();
 
 app.Run();
